@@ -20,6 +20,10 @@
             title: 'Appearance',
             href: '/settings/appearance',
         },
+        {
+            title: 'Two Factor',
+            href: '/settings/TwoFactor'
+        }
     ];
 
     const currentPath = $page.props.ziggy?.location ? new URL($page.props.ziggy.location).pathname : '';
